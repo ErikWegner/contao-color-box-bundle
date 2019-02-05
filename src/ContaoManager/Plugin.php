@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace ErikWegner\ColorBoxBundle\ContaoManager;
+namespace Contao\ColorBoxBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
