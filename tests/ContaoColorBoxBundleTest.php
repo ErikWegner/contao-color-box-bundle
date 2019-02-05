@@ -8,9 +8,9 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\ColorBoxBundle\Tests;
+namespace ErikWegner\ColorBoxBundle\Tests;
 
-use Contao\ColorBoxBundle\ContaoColorBoxBundle;
+use ErikWegner\ColorBoxBundle\ContaoColorBoxBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoColorBoxBundleTest extends TestCase

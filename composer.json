@@ -28,16 +28,16 @@
         "symfony/phpunit-bridge": "^3.4.5"        
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\ContaoColorBoxBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "ErikWegner\\ContaoColorBoxBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\ContaoColorBoxBundle\\": "src/"
+            "ErikWegner\\ContaoColorBoxBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\ContaoColorBoxBundle\\Tests\\": "tests/"
+            "ErikWegner\\ContaoColorBoxBundle\\Tests\\": "tests/"
         }
     },
     "support": {
