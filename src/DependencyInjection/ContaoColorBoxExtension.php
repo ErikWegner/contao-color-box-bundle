@@ -1,14 +1,14 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of Color Box.
  *
- * (c) John Doe
+ * (c) Erik Wegner
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace ErikWegner\ColorBoxBundle\DependencyInjection;
+namespace ErikWegner\ContaoColorBoxBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -1,20 +1,20 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of Color Box.
  *
- * (c) John Doe
+ * (c) Erik Wegner
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace ErikWegner\ColorBoxBundle\ContaoManager;
+namespace ErikWegner\ContaoColorBoxBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use ErikWegner\ColorBoxBundle\ContaoColorBoxBundle;
+use ErikWegner\ContaoColorBoxBundle\ContaoColorBoxBundle;
 
 class Plugin implements BundlePluginInterface
 {

@@ -1,14 +1,14 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of Color Box.
  *
- * (c) John Doe
+ * (c) Erik Wegner
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace ErikWegner\ColorBoxBundle;
+namespace ErikWegner\ContaoColorBoxBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

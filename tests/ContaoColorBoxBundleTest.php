@@ -1,16 +1,16 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of Color Box.
  *
- * (c) John Doe
+ * (c) Erik Wegner
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace ErikWegner\ColorBoxBundle\Tests;
+namespace ErikWegner\ContaoColorBoxBundle\Tests;
 
-use ErikWegner\ColorBoxBundle\ContaoColorBoxBundle;
+use ErikWegner\ContaoColorBoxBundle\ContaoColorBoxBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoColorBoxBundleTest extends TestCase
@@ -19,6 +19,6 @@ class ContaoColorBoxBundleTest extends TestCase
     {
         $bundle = new ContaoColorBoxBundle();
 
-        $this->assertInstanceOf('Contao\ColorBoxBundle\ContaoColorBoxBundle', $bundle);
+        $this->assertInstanceOf('ErikWegner\ContaoColorBoxBundle\ContaoColorBoxBundle', $bundle);
     }
 }
