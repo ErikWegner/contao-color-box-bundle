@@ -46,7 +46,7 @@ $GLOBALS['TL_DCA']['tl_colorbox_colors'] = array(
         'operations' => array(
             'edit' => array(
                 'label' => &$GLOBALS['TL_LANG']['tl_colorbox_colors']['edit'],
-                'href' => 'table=tl_colorbox_colors',
+                'href' => 'act=edit',
                 'icon' => 'edit.gif'
             ),
             'copy' => array(
