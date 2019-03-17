@@ -1,0 +1,5 @@
+<div style="background-color:#<?= $this->color ?>" class="cbBox">
+<span class="cbLabel">
+<?= $this->title ?>: <?= $this->color ?>
+</span>
+</div>

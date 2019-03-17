@@ -27,7 +27,7 @@ class ModuleColorBoxList extends \Module
 	 * Template
 	 * @var string
 	 */
-	protected $strTemplate = 'mod_colorboxlist';
+	protected $strTemplate = 'mod_colorBoxlist';
 
 	/**
 	 * Display a wildcard in the back end
@@ -192,7 +192,7 @@ class ModuleColorBoxList extends \Module
 	protected function parseColors($objColors, $strClass='', $intCount=0)
 	{
         $colors = [];
-		$objTemplate = new \FrontendTemplate('mod_colorboxlistitem');
+		$objTemplate = new \FrontendTemplate('mod_colorBoxlistitem');
         foreach ($objColors->getModels() as $model) {
             $objTemplate->setData($model->row());
             $colors[] = $objTemplate->parse();
